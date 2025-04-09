@@ -1,0 +1,16 @@
+name: Hello
+on: push
+# ワークフロー名
+# イベント
+jobs:
+  # ジョブ
+  hello:
+    # ジョブ名
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world"
+      - uses: actions/checkout@v4
+# ランナー
+# ステップ
+# シェルコマンド
+# アクション
